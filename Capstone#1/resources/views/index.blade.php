@@ -123,9 +123,9 @@
 
           <!-- hero buttons -->
           <div class="herobtn d-flex">
-          <a href="./sign_up.html" class="btn-main fw-semibold me-3
+          <a href="/signup" class="btn-main fw-semibold me-3
           ">book an appointment</a>
-          <a href="./sign_up.html" class="btn-2nd fw-semibold
+          <a href="/signup" class="btn-2nd fw-semibold
           ">Join now</a></div>
 
           <!-- customer and ratings -->

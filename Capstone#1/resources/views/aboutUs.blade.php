@@ -99,7 +99,7 @@
 
                       <div id="emailHelp" class="text-center form-text mt-5 mb-2">Dont have an account?</div>
                       <div class="d-flex">
-                      <a href="" class="signUpLink mx-auto justify-content-center mb-5 ">Sign Up</a></div>
+                      <a href="/signup" class="signUpLink mx-auto justify-content-center mb-5 ">Sign Up</a></div>
                       </form>
                     </div>
                     
