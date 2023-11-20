@@ -30,8 +30,7 @@
       
       <nav
         id="main_menu"
-        class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-      >
+        class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
           <a href="index.html" class="navbar-brand">
             <img src="" alt="Petmalu logo" width="" />
@@ -47,9 +46,9 @@
           </button>
           <div id="mainMenu" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
-              <li><a href="./index.html" class="nav-link">Home</a></li>
-              <li><a href="./aboutUs.html" class="nav-link">About</a></li>
-              <li><a href="./contactUs.html" class="nav-link">Contact Us</a></li>
+              <li><a href="/" class="nav-link">Home</a></li>
+              <li><a href="/about" class="nav-link">About</a></li>
+              <li><a href="/contact" class="nav-link">Contact Us</a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
@@ -102,7 +101,7 @@
 
                       <div id="emailHelp" class="text-center form-text mt-5 mb-2">Dont have an account?</div>
                       <div class="d-flex">
-                      <a href="" class="signUpLink mx-auto justify-content-center mb-5 ">Sign Up</a></div>
+                      <a href="/signup" class="signUpLink mx-auto justify-content-center mb-5 ">Sign Up</a></div>
                       </form>
                     </div>
                     

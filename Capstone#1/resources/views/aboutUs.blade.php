@@ -28,8 +28,7 @@
       
       <nav
         id="main_menu"
-        class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-      >
+        class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
           <a href="index.html" class="navbar-brand">
             <img src="" alt="Petmalu logo" width="" />
@@ -61,12 +60,57 @@
                   <li><a class="dropdown-item" href="#">Pet Walking</a></li>
                 </ul>
               </li>
-              <li><a href="#contact" class="nav-link sign">Sign In</a></li>
+              <li><button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign in
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content p-5">
+                    <button type="button" class="btn-close align-self-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header align-self-center">
+                      <h1 class="modal-title fs-1 fw-bold" id="exampleModalLabel">Log<span>in</span></h1>
+                      
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label" >Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div id="emailHelp" class="form-text mb-5 text-end">forgot password</div>
+                        <div class="d-flex">
+                        <button type="submit" class="btn-log mx-auto mt-5 justify-content-center">Submit</button>
+
+                      </div>
+                        <div id="emailHelp" class="text-center form-text mt-5 mb-3">Or Sign Up Using</div>
+
+                        <div class="text-center mb-5">
+                        <i class="bi bi-facebook fs-1 me-3"></i>
+                        <i class="bi bi-google fs-1"></i>
+                      </div>
+
+
+                      <div id="emailHelp" class="text-center form-text mt-5 mb-2">Dont have an account?</div>
+                      <div class="d-flex">
+                      <a href="" class="signUpLink mx-auto justify-content-center mb-5 ">Sign Up</a></div>
+                      </form>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div></li>
             </ul>
           </div>
         </div>
       </nav>
-      </div>
+      
 
     <!-- About Start -->
     <div class="container py-5">

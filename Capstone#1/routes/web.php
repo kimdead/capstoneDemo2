@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::view("/","index");
 Route::view("/about", "aboutUs");
 Route::view("/contact", "contactUs");
+Route::view("/signup", "signUp");
