@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{asset('assets/about.css')}}">
-    <title>Petmalu</title>
+    <title>Petmalu | About Us</title>
     <style>
 
 
@@ -52,12 +52,12 @@
                   Services
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Pet Grooming</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Boarding</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Training</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Sitting</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Daycare</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Walking</a></li>
+                  <li><a class="dropdown-item" href="/grooming">Pet Grooming</a></li>
+                  <li><a class="dropdown-item" href="/boarding">Pet Boarding</a></li>
+                  <li><a class="dropdown-item" href="training">Pet Training</a></li>
+                  <li><a class="dropdown-item" href="/sitting">Pet Sitting</a></li>
+                  <li><a class="dropdown-item" href="daycare">Pet Daycare</a></li>
+                  <li><a class="dropdown-item" href="petwalking">Pet Walking</a></li>
                 </ul>
               </li>
               <li><button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -274,7 +274,7 @@
     <div class="imgfooter"><img src="../assets/img/dog footer.png" alt=""></div>
     <div class="text-foot text-center" id="text-foot">
       <h3>Pawsitively Unleashing Happiness!</h3><br>
-      <a class="btn-btm fw-bold" href="#">SIGN UP</a>
+      <a class="btn-btm fw-bold" href="/signup">SIGN UP</a>
      </div>
   
     <section
@@ -317,7 +317,7 @@
                 <ul class="list-unstyled">
                   <p><i class="bi bi-telephone-fill fs-4"></i> 0915-123-4567</p>
                   <p><i class="bi bi-geo-alt-fill fs-4"></i> 143, PagHanapin st. kungSanMan</p>
-                  <p><i class="bi bi-clockill fs-4"></i> weekdays : Open | Sunday : close</p>
+                  <p><i class="bi bi-clock-fill fs-4"></i> weekdays : Open | Sunday : close</p>
                   <p><i class="bi bi-c-circle fs-4"></i> 2023 petMalu, All Rights Reserved</p>
                 </ul>
                 

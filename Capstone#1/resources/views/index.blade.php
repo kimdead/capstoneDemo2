@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{asset('assets/index.css')}}">
-    <title>Petmalu</title>
+    <title>Petmalu | Home</title>
     <style>
      
      
@@ -33,7 +33,7 @@
         class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
           <a href="index.html" class="navbar-brand">
-            <img src="" alt="Petmalu logo" width="" />
+            <img src="../assets/img/petLogo.png" alt="Petmalu logo" width="100px" />
           </a>
 
           <button
@@ -54,12 +54,12 @@
                   Services
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Pet Grooming</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Boarding</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Training</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Sitting</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Daycare</a></li>
-                  <li><a class="dropdown-item" href="#">Pet Walking</a></li>
+                  <li><a class="dropdown-item" href="/grooming">Pet Grooming</a></li>
+                  <li><a class="dropdown-item" href="/boarding">Pet Boarding</a></li>
+                  <li><a class="dropdown-item" href="training">Pet Training</a></li>
+                  <li><a class="dropdown-item" href="/sitting">Pet Sitting</a></li>
+                  <li><a class="dropdown-item" href="daycare">Pet Daycare</a></li>
+                  <li><a class="dropdown-item" href="petwalking">Pet Walking</a></li>
                 </ul>
               </li>
               <li><button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -133,7 +133,7 @@
           <div class="customers mt-4">
             <img class="pic1" src="../assets/img/pexels-andrea-piacquadio-774909.jpg" alt="" >
             <img class="pic2" src="../assets/img/woman2.jpg" alt="" >
-            <img class="pic3" src="../assets/img/" alt="" >
+            <img class="pic3" src="../assets/img/man1.jpg" alt="" >
             <img class="pic4" src="../assets/img/woman3.jpg" alt="" >
             <img class="pic5" src="../assets/img/man2.jpg" alt=""  >
             <img class="pic6" src="../assets/img/woman4.jpg" alt="" >
@@ -501,7 +501,7 @@
   <div class="imgfooter"><img src="../assets/img/dog footer.png" alt=""></div>
   <div class="text-foot text-center" id="text-foot">
     <h3>Pawsitively Unleashing Happiness!</h3><br>
-    <a class="btn-btm fw-bold" href="#">SIGN UP</a>
+    <a class="btn-btm fw-bold" href="/signup">SIGN UP</a>
    </div>
 
   <section
@@ -510,10 +510,10 @@
       
 
         
-          <div class="row">
+          <div class="row g-0">
             <div class="col-md-3">
-              <img src="./images/logo2.1.png" alt="Petmalu Logo" width="180px" />
-              <div class="social">
+              <img src="../assets/img/petLogo.png" alt="Petmalu logo" width="250px" />
+              <div class="social mt-4">
                 <a href="#"><i class="bi bi-facebook fs-3 m-2"></i></i></a>
                 <a href="#"><i class="bi bi-twitter fs-3 m-2"></i></i></a>
                 <a href="#"><i class="bi bi-youtube fs-3 m-2"></i></a>
